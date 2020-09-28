@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  SHOPIFY_API_KEY: '067aa25b44cf9f5ff480499137d8dadd',
+  SHOPIFY_API_SECRET_KEY: '067aa25b44cf9f5ff480499137d8dadd'
 };
 
 /*
