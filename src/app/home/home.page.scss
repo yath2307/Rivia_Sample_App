@@ -26,6 +26,11 @@
   text-decoration: none;
 }
 
-.my-custom-menu {
-  --width: 500px;
+.mainCard {
+  position: absolute;
+  top: 6vh;
+  align-self: center;
+  align-content: center;
+  height: 60vh;
+  width: 60vw;
 }

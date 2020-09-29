@@ -6,20 +6,30 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-app>
-  <ion-menu side="start" menuId="first" contentId="main">
-    <ion-content>
-      <ion-toolbar color="primary">
-        <ion-title>Start Menu</ion-title>
-      </ion-toolbar>
-      <ion-list>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-        <ion-item>Menu Item</ion-item>
-      </ion-list>
-    </ion-content>
-  </ion-menu>
-
-<ion-router-outlet id="main"></ion-router-outlet>
+  <ion-card class="mainCard" mode="ios" >
+    <ion-card-header>
+      <ion-card-title>Options</ion-card-title>
+    </ion-card-header>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button class="button" fill="outline" routerDirection="forward" size="large" shape="round" routerLink="orders">Orders</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button class="button" fill="outline" routerDirection="forward" size="large" shape="round" routerLink="products">Products</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button class="button" fill="outline" routerDirection="forward" size="large" shape="round" routerLink="payments">Payments</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button class="button" fill="outline" routerDirection="forward" size="large" shape="round" routerLink="customers">Customers</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>

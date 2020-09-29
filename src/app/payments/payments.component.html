@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Rivia Shopping
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-card class="mainCard" mode="ios" >
+    <ion-card-header>
+      <ion-card-title>Orders</ion-card-title>
+    </ion-card-header>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button class="button" fill="outline" size="large" shape="round" (click)="paymentPopover('all')">All Payments</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button class="button" fill="outline" size="large" shape="round" (click)="paymentPopover('successfull')">Successfull Payments</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button class="button" fill="outline" size="large" shape="round" (click)="paymentPopover('failed')">Failed Payments</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>

@@ -1,0 +1,11 @@
+
+
+<ion-content>
+	<ion-content padding class="tab5-content">
+		<ion-grid>
+			<ion-row *ngFor="let element of productsList" >
+				<ion-col col-auto text-center class="cell-class" *ngFor="let item of element"> {{ item }}</ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-content>
+</ion-content>
