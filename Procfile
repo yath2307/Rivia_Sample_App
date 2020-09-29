@@ -1,1 +1,1 @@
-web: npm run build && npm start
+web: ionic cordova build browser && ionic cordova run browser
