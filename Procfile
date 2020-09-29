@@ -1,1 +1,0 @@
-web: ionic cordova build browser && ionic cordova run browser
